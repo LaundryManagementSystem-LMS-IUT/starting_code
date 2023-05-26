@@ -1,7 +1,7 @@
 <?php
     require 'connector-definition.php';
     try{
-        $database=new PostgreDBConnector("admin","5433","us-west-2.5ce21198-7576-4446-a256-2054e47608f1.aws.ybdb.io","-TKzzPBle8QVhxSV5arvEqLJVPJM0U","yugabyte","../root.crt");
+        $database=new PostgreDBConnector("admin","5433","us-west-2.397bd86a-0e28-418c-b168-b39438596ec7.aws.ybdb.io","q4jSncIbEcpyB7aA4ucIWfIgfo8NvY","yugabyte","../root.crt");
     }
     catch(Exception $e){
         die("Connection does not occur: ".$e->getMessage());
